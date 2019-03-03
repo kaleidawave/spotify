@@ -1,0 +1,44 @@
+#sidebar {
+    background-color: var(--black);
+    color: var(--offwhite);
+    padding: 20px;
+    user-select: none;
+}
+
+#dotdotdot {
+    font-size: 24px;
+}
+
+#main-nav {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-gap: 4px;
+    font-size: 16px;
+}
+
+#main-nav > p {
+    margin: 0px;
+}
+
+#sidebar > h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    color: var(--offwhite);
+    font-weight: 100;
+}
+
+#sidebar > ul {
+    list-style-type: none;
+    padding-left: 0px;
+    line-height: 26px;
+    font-size: 14px;
+    color: var(--offwhite);
+}
+
+#sidebar > button {
+    color: var(--offwhite);
+    background: none;
+    border: none;
+    padding: 0px;
+}
