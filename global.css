@@ -1,6 +1,8 @@
 :root {
     --black: #111111;
-    --offwhite: #eeeeee;
+    --muted: #9a9a9a;
+    --text: #f2f2f2;
+    --accent: #1ed760;
 }
 
 html, body {
@@ -16,7 +18,7 @@ body {
 }
 
 body > div {
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 #play {

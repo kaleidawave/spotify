@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -8,38 +9,46 @@
 
     <title>Spotify</title>
 </head>
+
 <body>
     <div id="sidebar">
         <i class="fas fa-ellipsis-h" id="dotdotdot"></i>
-        <div id="main-nav">
-            <i class="fas fa-home"></i>
-            <p>Home</p>
-            <i class="fas fa-book"></i>
-            <p>Library</p>
-            <i class="fas fa-broadcast-tower"></i>
-            <p>Radio</p>
-        </div>
+        <ul id="main-nav">
+            <li><a>
+                <i class="fas fa-home"></i>
+                <p>Home</p>
+            </a></li>
+            <li><a>
+                <i class="fas fa-book"></i>
+                <p>Library</p>
+            </a></li>
+            <li><a>
+                <i class="fas fa-broadcast-tower"></i>
+                <p>Radio</p>
+            </a></li>
+        </ul>
         <h3>Your Library</h3>
-        <ul id="library-nav" class="navlist">
-            <li>Made For You</li>
-            <li>Recently Played</li>
-            <li>Favorite Songs</li>
-            <li>Albums</li>
-            <li>Artists</li>
-            <li>Stations</li>
-            <li>Videos</li>
-            <li>Local Files</li>
-            <li>Podcasts</li>
+        <ul id="library-nav">
+            <li><a>Made For You</a></li>
+            <li><a>Recently Played</a></li>
+            <li><a>Favorite Songs</a></li>
+            <li><a>Albums</a></li>
+            <li><a>Artists</a></li>
+            <li><a>Stations</a></li>
+            <li><a>Videos</a></li>
+            <li><a>Local Files</a></li>
+            <li><a>Podcasts</a></li>
         </ul>
         <h3>Playlists</h3>
-        <ul id="playlist-nav" class="navlist">
-            <li>Playlist 1</li>
-            <li>Playlist 2</li>
-            <li>Playlist 3</li>
+        <ul id="playlist-nav">
+            <li><a>Playlist 1</a></li>
+            <li><a>Playlist 2</a></li>
+            <li><a>Playlist 3</a></li>
         </ul>
         <button>New Playlist <i class="fas fa-plus-circle"></i></button>
     </div>
     <div id="main">main</div>
     <div id="play">play</div>
 </body>
+
 </html>
