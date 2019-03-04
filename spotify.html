@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="play.css">
 
     <title>Spotify</title>
 </head>
@@ -48,7 +49,27 @@
         <button>New Playlist <i class="fas fa-plus-circle"></i></button>
     </div>
     <div id="main">main</div>
-    <div id="play">play</div>
+    <div id="play">
+        <div id="track-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Flume_-_Skin.png/220px-Flume_-_Skin.png">
+            <h5><a>Innocence</a> <i class="fas fa-heart"></i></h5>
+            <p><a>Flume</a>, <a>AlunaGeorge</a></p>
+        </div>
+        <div id="hub">
+            <div id="controls">
+                <button><i class="fas fa-random"></i></button>
+                <button><i class="fas fa-step-backward"></i></button>
+                <button><i class="fas fa-play"></i></button>
+                <button><i class="fas fa-step-forward"></i></button>
+                <button><i class="fas fa-redo"></i></button>
+            </div>
+            <div id="seeker">
+                <p>2:42</p>
+                <input type="range" min="1" max="100" value="50">
+                <p>2:59</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
