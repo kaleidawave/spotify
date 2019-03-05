@@ -2,7 +2,6 @@
     background-color: var(--black);
     color: var(--muted);
     padding: 20px;
-    user-select: none;
 }
 
 #dotdotdot {

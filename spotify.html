@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="play.css">
+    <link rel="stylesheet" href="bar.css">
 
     <title>Spotify</title>
 </head>
@@ -16,17 +17,17 @@
         <i class="fas fa-ellipsis-h" id="dotdotdot"></i>
         <ul id="main-nav">
             <li><a>
-                <i class="fas fa-home"></i>
-                <p>Home</p>
-            </a></li>
+                    <i class="fas fa-home"></i>
+                    <p>Home</p>
+                </a></li>
             <li><a>
-                <i class="fas fa-book"></i>
-                <p>Library</p>
-            </a></li>
+                    <i class="fas fa-book"></i>
+                    <p>Library</p>
+                </a></li>
             <li><a>
-                <i class="fas fa-broadcast-tower"></i>
-                <p>Radio</p>
-            </a></li>
+                    <i class="fas fa-broadcast-tower"></i>
+                    <p>Radio</p>
+                </a></li>
         </ul>
         <h3>Your Library</h3>
         <ul id="library-nav">
@@ -48,7 +49,19 @@
         </ul>
         <button>New Playlist <i class="fas fa-plus-circle"></i></button>
     </div>
-    <div id="bar">bar</div>
+    <div id="bar">
+        <button><i class="fas fa-chevron-left"></i></button>
+        <button><i class="fas fa-chevron-right"></i></button>
+        <div id="search">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="search">
+        </div>
+        <div id="user">
+            <i class="fas fa-user"></i>
+            <p><a>username</a></p>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
     <div id="main">main</div>
     <div id="play">
         <div id="track-card">
@@ -71,6 +84,7 @@
             </div>
         </div>
     </div>
+    <div id="background"></div>
 </body>
 
 </html>
