@@ -61,6 +61,8 @@
     border: none;
     background: none;
     color: inherit;
+    font-size: 14px;
+    margin: 0px 5px;
 }
 
 #hub>#seeker>input {
@@ -79,20 +81,27 @@
 
 #hub>#seeker>input::-webkit-slider-thumb {
     -webkit-appearance: none;
-    /* appearance: none;
-    width: 25px;
-    height: 25px;
+    appearance: none;
+    /* width: 10px;
+    height: 10px;
     background: #4CAF50;
     cursor: pointer;
-    height: 25px;
     border-radius: 50%; */
 }
 
-#hub>#seeker>input::-moz-range-thumb {
-    /* width: 25px;
-    height: 25px;
+
+#hub>#seeker>input::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
     background: #4CAF50;
     cursor: pointer;
-    height: 25px;
-  border-radius: 50%; */
+    border-radius: 50%;
+}
+
+#hub>#seeker>input::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
 }
