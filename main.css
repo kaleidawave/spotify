@@ -1,0 +1,56 @@
+#main {
+    color: var(--text);
+    padding: 24px;
+    overflow-y: auto;
+}
+
+#main>h2 {
+    font-size: 50px;
+    margin: 20px 0px 14px;
+}
+
+.content-header {
+    display: flex;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--text);
+}
+
+.content-header>h5 {
+    margin: 0px;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.content-header>button {
+    color: var(--text);
+}
+
+.content-bar {
+    display: flex;
+    margin: 18px 0px;
+    overflow-y: auto;
+}
+
+.content-bar > .item {
+    flex: 0 0 240px;
+    margin-right: 20px;
+}
+
+.content-bar > .item > img {
+    width: 100%;
+}
+
+.content-bar > .item > h5 {
+    margin: 4px 0px;
+    font-size: 16px;
+}
+
+.content-bar > .item > p {
+    margin: 4px 0px;
+    font-size: 12px;
+}
+
+.content-bar > .item > p.subtitle{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

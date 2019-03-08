@@ -2,6 +2,7 @@
     background-color: var(--black);
     color: var(--muted);
     padding: 20px;
+    overflow-y: auto;
 }
 
 #dotdotdot {

@@ -107,3 +107,13 @@
     cursor: pointer;
     border-radius: 50%;
 }
+
+#side-buttons {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+#side-buttons > button {
+    color: var(--text);
+}

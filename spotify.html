@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="play.css">
     <link rel="stylesheet" href="bar.css">
+    <link rel="stylesheet" href="main.css">
+
+    <script defer src="https://cdn.jsdelivr.net/gh/kaleidawave/duplicatejs/duplicate.min.js"></script>
 
     <title>Spotify</title>
 </head>
@@ -16,16 +19,13 @@
     <div id="sidebar">
         <i class="fas fa-ellipsis-h" id="dotdotdot"></i>
         <ul id="main-nav">
-            <li><a>
-                    <i class="fas fa-home"></i>
+            <li><a> <i class="fas fa-home"></i>
                     <p>Home</p>
                 </a></li>
-            <li><a>
-                    <i class="fas fa-book"></i>
+            <li><a> <i class="fas fa-book"></i>
                     <p>Library</p>
                 </a></li>
-            <li><a>
-                    <i class="fas fa-broadcast-tower"></i>
+            <li><a> <i class="fas fa-broadcast-tower"></i>
                     <p>Radio</p>
                 </a></li>
         </ul>
@@ -54,7 +54,7 @@
         <button><i class="fas fa-chevron-right"></i></button>
         <div id="search">
             <i class="fas fa-search"></i>
-            <input type="text" placeholder="search">
+            <input type="text" placeholder="Search">
         </div>
         <div id="user">
             <i class="fas fa-user"></i>
@@ -62,7 +62,26 @@
             <i class="fas fa-chevron-down"></i>
         </div>
     </div>
-    <div id="main">main</div>
+    <div id="main">
+        <h2>Home</h2>
+        <div id="content">
+            <div>
+                <div class="content-header ">
+                    <h5>This afternoon's listening...</h5>
+                    <button><i class="fas fa-chevron-left"></i></button>
+                    <button><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="content-bar" data-duplicate="5">
+                    <div class="item">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Flume_-_Skin.png/220px-Flume_-_Skin.png">
+                        <h5>Rap Central</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima obcaecati adipisci doloribus minus molestias rem quas, soluta error odio repudiandae!</p>
+                        <p class="subtitle">142,145 Followers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="play">
         <div id="track-card">
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Flume_-_Skin.png/220px-Flume_-_Skin.png">
@@ -81,6 +100,14 @@
                 <p>2:42</p>
                 <input type="range" min="1" max="100" value="50">
                 <p>2:59</p>
+            </div>
+        </div>
+        <div id="side-buttons">
+            <button><i class="fas fa-align-left"></i></button>
+            <button><i class="fas fa-desktop"></i></button>
+            <button><i class="fas fa-volume-up"></i></button>
+            <div id="seeker">
+                <input type="range" min="1" max="100" value="50">
             </div>
         </div>
     </div>
